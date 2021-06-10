@@ -13,7 +13,6 @@ age = int(input("Input your age from keyboard: "))
 
 if age > 18:
     print("Ты уже совершеннолетний")
-    print("Писать нужно с отступом")
 elif age > 16:
     print("У тебя уже есть паспорт")
 else:
