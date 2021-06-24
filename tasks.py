@@ -53,9 +53,15 @@ s = "some string"
 # # Задача 10
 # # Вводится целое число, обозначающее код символа по таблице ASCII. Определить, это код английской буквы или какой-либо иной символ.
 
-symbol = int(input("Input code "))
+# symbol = int(input("Input code "))
+#
+# if (symbol >= 65 and symbol <= 90) or (symbol >= 97 and symbol <= 122):
+#     print(symbol, " - ", chr(symbol), " it is english symbol")
+# else:
+#     print("it is some symbol: ", chr(symbol))
 
-if (symbol >= 65 and symbol <= 90) or (symbol >= 97 and symbol <= 122):
-    print(symbol, " - ", chr(symbol), " it is english symbol")
-else:
-    print("it is some symbol: ", chr(symbol))
+# % - нахождение остатка
+# 4 / 2 = 2      4 % 2 = 0  - остатка нету, 4 делится нацело на 2
+# 5 / 2 = 2.5    5 % 2 = 1 -    1 - это остаток
+# 9 / 3 = 3      10 % 3 = 1    - 9 6 3
+#                11 % 3 = 2    - 9 6 3  2
